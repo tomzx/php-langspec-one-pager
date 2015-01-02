@@ -1,0 +1,29 @@
+{
+	"name": "tomzx/php-langspec-one-pager",
+	"description": "Generate a single HTML page of all the php-langspec markdown files.",
+	"type": "project",
+	"keywords": [
+		"php-langspec"
+	],
+	"homepage": "https://github.com/tomzx/php-langspec-one-pager",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tom Rochette",
+			"email": "tom@tomrochette.com",
+			"homepage": "http://www.tomrochette.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tomzx/php-langspec-one-pager/issues"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"michelf/php-markdown": "1.4.1"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1-dev"
+		}
+	}
+}
